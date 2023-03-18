@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Model vs Template: How I failed as a mentor and what I learned from my mistakes | Grygorenko Blog</title>
+<meta name="keywords" content="first, second">
+<meta name="description" content="This is  a first post Desc Text.">
+<meta name="author" content="Me">
+<link rel="canonical" href="https://grygorenko-artem.github.io/posts/post/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.dc96e9e0118e5e264a03d68b104df6ae869cfb73c61f5f89dd91aeb16b0d8c03.css" integrity="sha256-3Jbp4BGOXiZKA9aLEE32roac&#43;3PGH1&#43;J3ZGusWsNjAM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://grygorenko-artem.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://grygorenko-artem.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://grygorenko-artem.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://grygorenko-artem.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://grygorenko-artem.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Model vs Template: How I failed as a mentor and what I learned from my mistakes" />
+<meta property="og:description" content="This is  a first post Desc Text." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://grygorenko-artem.github.io/posts/post/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-18T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Model vs Template: How I failed as a mentor and what I learned from my mistakes"/>
+<meta name="twitter:description" content="This is  a first post Desc Text."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://grygorenko-artem.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Model vs Template: How I failed as a mentor and what I learned from my mistakes",
+      "item": "https://grygorenko-artem.github.io/posts/post/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Model vs Template: How I failed as a mentor and what I learned from my mistakes",
+  "name": "Model vs Template: How I failed as a mentor and what I learned from my mistakes",
+  "description": "This is  a first post Desc Text.",
+  "keywords": [
+    "first", "second"
+  ],
+  "articleBody": " Starting point Mentoring employees is one of the most important processes in our company. Wise and experienced veterans guide and curate professional growth of new people, helping interns transform into senior test engineers.\nWhen it comes to mentoring, there are many well known approaches one could use: Kolb’s cycle, the learning pyramid, Bloom’s taxonomy, etc. In Apriorit, we use approach based on Individual Development Plans, or IDPs. The gist of the approach is that the mentor creates a series of assignments for the student, designed to teach them skills and give them experience necessary for a new role. All tasks are formulated with SMART criteria in mind, detailing deadlines and ways in which they can be completed. This looks simple enough on the surface. However, as I found out, it’s not that easy in practice.\nFrom middle to senior specialist in one IDP After I trained my first generation of middle testers, I decided to not just stop there and to try and help them grow into seniors. In order to do this, I tried to analyze strong and weak points of each of my students, their approaches to problem solving, as well as how they fare when it comes to communication and collaboration within a team. I sourced opinions from people that directly worked with them, and based on my conclusions, developed unique IDPs for each of my students.\nEach IDP was created with a template-based approach in mind.\nThis means that each IDP was filled with a range of tasks, each formulated in a very precise fashion with detailed instructions on how it should be completed. Each task was designed to serve as a template on how to solve similar problems in the future. I gave my students articles and books to read and problems to solve. These assignments were designed to give them all necessary skills for senior Test Engineer position over the course of a single IDP.\nThere are several advantages to creating IDPs with a template-based approach:\nYou can better cater the next task to a specific person, since you know what skills and knowledge exactly they developed over the course of a previous stage. You know what tools and techniques a person can use and can incorporate this information into your IDP. Template-based IDPs allow to reduce risks due to their predictable nature. When adults perform tasks, formed with a template-based approach in mind, the results will often be very predictable. Similar to McDonalds, no matter in which city you eat, the food will always taste the same.\nHowever, what I found out is that if the student is put in an unfamiliar situation, they tend to fail. When facing the unknown, there is a big chance that they will try to apply the template that they learned to it, and if doesn’t quite fit, then they will be unable to solve the taks. This is the point where you start hearing complaints and excuses: “I don’t have the necessary tools”, “It can’t be done this way”, “It’s impossible to do”, etc.\nIf we apply Bloom’s taxonomy to the template approach, then we will be able to see that the template-based IDP allows students to reach the level of application, but senior test engineers should be on the level of analysis or synthesis. To make the story short, my students have failed, and thus I have failed as a mentor.\nTake 2 For the next IDP, I decided to try something different. Instead of using a template-based approach, I decided to use a model-based approach. Models are something that finally allowed me to grow the skills of my students to the level of analysis and synthesis in the Bloom’s taxonomy.\nIn order to implement this approach, I increased the level of abstraction. Each new task that I designed was aimed at helping students themselves to form their own individual approaches for solving problems. For example, instead of writing “Read this particular article and working with people and formulating tasks”, I wrote “Develop your own approach and a set of tools for effectively managing and controlling tasks of your subordinates.”\nTasks like this allow middle test engineers to perform certain actions that they wouldn’t be able to do in a template-based approach:\nAnalyze the current situation Study available tools and resources Ask for advice from more experienced employees Apply new knowledge in practice Reach their own conclusions and maybe come up with something new This makes it so that employees are not limited by the instructions that you’ve given them, and try to find their own ways to solve the problem. For example, let’s take a position of test-manager. A person that was tutored with a model-based approach when transitioning into this role on the new project will be able to bring their own new ideas, as well as propose some improvements to the already established processes, etc.\nThe person that is tutored via a template-based approach would not be able to offer something new. This is not necessarily bad though, since sometimes you don’t want to fix things that are not broken. A person like that will be able to pick up existing processes and fit right in.\nConclusion It’s hard to say that one approach is definitely better than the other. Both have their own advantages and disadvantages. I found out that it’s worth it to pick and choose depending on the situation and personality of an employee that you’re mentoring.\nBut generally speaking, Junior and middle test engineers will usually perform better when given assignments designed with the template-based approach. Such assignments will help them expand their knowledge quickly and teach them how typical tasks are solved within the company. However, when you need to develop analytical skills in a person, which is often the case when you’re training them for senior position, model-based approach often works best. In any case, you should definitely choose your own solutions depending on your own situation.\n",
+  "wordCount" : "991",
+  "inLanguage": "en",
+  "datePublished": "2023-03-18T00:00:00Z",
+  "dateModified": "2023-03-18T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Me"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://grygorenko-artem.github.io/posts/post/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Grygorenko Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://grygorenko-artem.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://grygorenko-artem.github.io/" accesskey="h" title="Grygorenko Blog (Alt + H)">Grygorenko Blog</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://grygorenko-artem.github.io/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://grygorenko-artem.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://grygorenko-artem.github.io/talks" title="My Talks">
+                    <span>My Talks</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://grygorenko-artem.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/" title="WiKi">
+                    <span>WiKi</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://grygorenko-artem.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://grygorenko-artem.github.io/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Model vs Template: How I failed as a mentor and what I learned from my mistakes
+    </h1>
+    <div class="post-description">
+      This is  a first post Desc Text.
+    </div>
+    <div class="post-meta"><span title='2023-03-18 00:00:00 +0000 UTC'>March 18, 2023</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Me
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#starting-point" aria-label="Starting point">Starting point</a></li>
+                <li>
+                    <a href="#from-middle-to-senior-specialist-in-one-idp" aria-label="From middle to senior specialist in one IDP">From middle to senior specialist in one IDP</a></li>
+                <li>
+                    <a href="#take-2" aria-label="Take 2">Take 2</a></li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><img loading="lazy" src="../images/startingpoint.jpg" alt="starting point"  />
+</p>
+<h3 id="starting-point">Starting point<a hidden class="anchor" aria-hidden="true" href="#starting-point">#</a></h3>
+<p>Mentoring employees is one of the most important processes in our company. Wise and experienced veterans guide and curate professional growth of new people, helping interns transform into senior test engineers.</p>
+<p>When it comes to mentoring, there are many well known approaches one could use: Kolb&rsquo;s cycle, the learning pyramid, Bloom&rsquo;s taxonomy, etc. In Apriorit, we use approach based on Individual Development Plans, or IDPs. The gist of the approach is that the mentor creates a series of assignments for the student, designed to teach them skills and give them experience necessary for a new role. All tasks are formulated with SMART criteria in mind, detailing deadlines and ways in which they can be completed. This looks simple enough on the surface. However, as I found out, it&rsquo;s not that easy in practice.</p>
+<h3 id="from-middle-to-senior-specialist-in-one-idp">From middle to senior specialist in one IDP<a hidden class="anchor" aria-hidden="true" href="#from-middle-to-senior-specialist-in-one-idp">#</a></h3>
+<p>After I trained my first generation of middle testers, I decided to not just stop there and to try and help them grow into seniors. In order to do this, I tried to analyze strong and weak points of each of my students, their approaches to problem solving, as well as how they fare when it comes to communication and collaboration within a team. I sourced opinions from people that directly worked with them, and based on my conclusions, developed unique IDPs for each of my students.</p>
+<p>Each IDP was created with a template-based approach in mind.</p>
+<p><img loading="lazy" src="../images/template-based.jpg" alt="template based"  />
+</p>
+<p>This means that each IDP was filled with a range of tasks, each formulated in a very precise fashion with detailed instructions on how it should be completed. Each task was designed to serve as a template on how to solve similar problems in the future. I gave my students articles and books to read and problems to solve. These assignments were designed to give them all necessary skills for senior Test Engineer position over the course of a single IDP.</p>
+<p>There are several advantages to creating IDPs with a template-based approach:</p>
+<ul>
+<li>You can better cater the next task to a specific person, since you know what skills and knowledge exactly they developed over the course of a previous stage.</li>
+<li>You know what tools and techniques a person can use and can incorporate this information into your IDP.</li>
+<li>Template-based IDPs allow to reduce risks due to their predictable nature.</li>
+</ul>
+<p>When adults perform tasks, formed with a template-based approach in mind, the results will often be very predictable. Similar to McDonalds, no matter in which city you eat, the food will always taste the same.</p>
+<p>However, what I found out is that if the student is put in an unfamiliar situation, they tend to fail. When facing the unknown, there is a big chance that they will try to apply the template that they learned to it, and if doesn&rsquo;t quite fit, then they will be unable to solve the taks. This is the point where you start hearing complaints and excuses: &ldquo;I don&rsquo;t have the necessary tools&rdquo;, &ldquo;It can&rsquo;t be done this way&rdquo;, &ldquo;It&rsquo;s impossible to do&rdquo;, etc.</p>
+<p>If we apply Bloom&rsquo;s taxonomy to the template approach, then we will be able to see that the template-based IDP allows students to reach the level of application, but senior test engineers should be on the level of analysis or synthesis.
+To make the story short, my students have failed, and thus I have failed as a mentor.</p>
+<h3 id="take-2">Take 2<a hidden class="anchor" aria-hidden="true" href="#take-2">#</a></h3>
+<p>For the next IDP, I decided to try something different. Instead of using a template-based approach, I decided to use a model-based approach. Models are something that finally allowed me to grow the skills of my students to the level of analysis and synthesis in the Bloom&rsquo;s taxonomy.</p>
+<p><img loading="lazy" src="../images/take2-idp.jpg" alt="take 2 idp"  />
+</p>
+<p>In order to implement this approach, I increased the level of abstraction. Each new task that I designed was aimed at helping students themselves to form their own individual approaches for solving problems. For example, instead of writing &ldquo;Read this particular article and working with people and formulating tasks&rdquo;, I wrote &ldquo;Develop your own approach and a set of tools for effectively managing and controlling tasks of your subordinates.&rdquo;</p>
+<p>Tasks like this allow middle test engineers to perform certain actions that they wouldn&rsquo;t be able to do in a template-based approach:</p>
+<ul>
+<li>Analyze the current situation</li>
+<li>Study available tools and resources</li>
+<li>Ask for advice from more experienced employees</li>
+<li>Apply new knowledge in practice</li>
+<li>Reach their own conclusions and maybe come up with something new</li>
+</ul>
+<p>This makes it so that employees are not limited by the instructions that you&rsquo;ve given them, and try to find their own ways to solve the problem. For example, let&rsquo;s take a position of test-manager. A person that was tutored with a model-based approach when transitioning into this role on the new project will be able to bring their own new ideas, as well as propose some improvements to the already established processes, etc.</p>
+<p>The person that is tutored via a template-based approach would not be able to offer something new. This is not necessarily bad though, since sometimes you don&rsquo;t want to fix things that are not broken. A person like that will be able to pick up existing processes and fit right in.</p>
+<h3 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h3>
+<p>It&rsquo;s hard to say that one approach is definitely better than the other. Both have their own advantages and disadvantages. I found out that it&rsquo;s worth it to pick and choose depending on the situation and personality of an employee that you&rsquo;re mentoring.</p>
+<p>But generally speaking, Junior and middle test engineers will usually perform better when given assignments designed with the template-based approach. Such assignments will help them expand their knowledge quickly and teach them how typical tasks are solved within the company.
+However, when you need to develop analytical skills in a person, which is often the case when you&rsquo;re training them for senior position, model-based approach often works best.
+In any case, you should definitely choose your own solutions depending on your own situation.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://grygorenko-artem.github.io/tags/first/">first</a></li>
+      <li><a href="https://grygorenko-artem.github.io/tags/second/">second</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://grygorenko-artem.github.io/">Grygorenko Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
