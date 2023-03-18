@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>second on Grygorenko Blog</title>
-    <link>https://grygorenko-artem.github.io/tags/second/</link>
-    <description>Recent content in second on Grygorenko Blog</description>
+    <title>Mentorship on Grygorenko Blog</title>
+    <link>https://grygorenko-artem.github.io/tags/mentorship/</link>
+    <description>Recent content in Mentorship on Grygorenko Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://grygorenko-artem.github.io/tags/second/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://grygorenko-artem.github.io/tags/mentorship/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Model vs Template: How I failed as a mentor and what I learned from my mistakes</title>
       <link>https://grygorenko-artem.github.io/posts/post/</link>
       <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://grygorenko-artem.github.io/posts/post/</guid>
-      <description>This is  a first post Desc Text.</description>
+      <description>About IDPs and Mentorships</description>
     </item>
     
   </channel>
