@@ -57,9 +57,10 @@
 }
 
  .carousel ol li.selected a {
-    background: rgb(255, 255, 255)11, 71, 71);
+    background: white;
 }
- .carousel .prev, .carousel .next {
+
+.carousel .prev, .carousel .next {
     display: none;
      user-select:none;
      cursor: pointer;
