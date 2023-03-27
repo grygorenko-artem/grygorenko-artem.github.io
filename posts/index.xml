@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Grygorenko Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://grygorenko-artem.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://grygorenko-artem.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I read articles</title>
+      <link>https://grygorenko-artem.github.io/posts/other/howireadarticles/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://grygorenko-artem.github.io/posts/other/howireadarticles/</guid>
+      <description>In this article, I will share how I read articles and manage them effectively to build my knowledge base.</description>
+    </item>
+    
     <item>
       <title>Model vs Template: How I failed as a mentor and what I learned from my mistakes</title>
       <link>https://grygorenko-artem.github.io/posts/modelvstemplate/</link>
